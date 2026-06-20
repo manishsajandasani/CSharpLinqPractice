@@ -1,7 +1,5 @@
 ﻿using CSharpLinqPractice.LINQCodeFiles;
 
-int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-LinqToObjects.Run(numbers);
+LinqToObjects.FindEvenNumbers(new int[] { 59, 64, 72, 85, 97, 113, 126, 144, 158, 161 });
 
 Console.ReadKey();
